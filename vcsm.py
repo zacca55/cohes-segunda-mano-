@@ -15,7 +15,7 @@ st.set_page_config(page_title="Mercado de Segunda Mano", layout="centered") # de
 
 #---------------------------------------------- COSAS QUE PODEMOS USAR EN TODA NUESTRA APP----------------------------------------------------------------------
 
-df = pd.read_csv("Proyecto_Final\mercado_coches_segunda_mano\coches.csv")
+df = pd.read_csv("coches.csv")
 df.drop(['price_financed','color','photos','phone','power','doors'], axis=1, inplace=True)
 moda_fuel=df['fuel'].mode
 moda_shift=df['shift'].mode
