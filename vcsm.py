@@ -15,8 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="Mercado de Segunda Mano", layout="centered") # después establecer el título de página, su layout e icono 
 if  st.session_state['answer'] in realans:
         answerStat = "correct"
-    elif st.session_state['answer'] not in realans:
-        answerStat = "incorrect"
+   
 
 #---------------------------------------------- COSAS QUE PODEMOS USAR EN TODA NUESTRA APP----------------------------------------------------------------------
 
