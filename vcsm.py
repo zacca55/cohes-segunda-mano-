@@ -13,8 +13,7 @@ import seaborn as sns
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="Mercado de Segunda Mano", layout="centered") # después establecer el título de página, su layout e icono 
-st.write(st.session_state)
-st.write(answerStat)
+
    
 
 #---------------------------------------------- COSAS QUE PODEMOS USAR EN TODA NUESTRA APP----------------------------------------------------------------------
