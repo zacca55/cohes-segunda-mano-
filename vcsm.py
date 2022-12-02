@@ -1,3 +1,4 @@
+
 #----------------------------------------------LIBRERIAS----------------------------------------------------------------------
 import streamlit as st
 import numpy as np
@@ -9,7 +10,7 @@ import seaborn as sns
 
 
 #----------------------------------------------CONFIGURACIÓN DE PÁGINA ----------------------------------------------------------------------
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="Mercado de Segunda Mano", layout="centered") # después establecer el título de página, su layout e icono 
 
 
